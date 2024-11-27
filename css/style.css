@@ -1,0 +1,168 @@
+@font-face {
+    font-family: Source Sans;
+    src: url(../font/Source_sans/SourceSans3-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Source Sans;
+    text-decoration: none;
+    list-style-type: none;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1300px;
+}
+header{
+    padding: 15px 20px 20px 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+menu{
+    font-weight: 600;
+    display: flex;
+    gap: 27px;
+    align-items: center;
+}
+.btn_login{
+    box-shadow: 0px 0px 0px 1px #067A46 inset;
+    color: #067A46;
+    font-weight: 600;
+    padding: 8px 28px 8px 28px;
+    border-radius: 4px;
+}
+.hero{
+    background-image: url(../img/hero.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-title{
+    padding-top: 190px;
+    text-align: center;
+    font-size: 37px;
+}
+.hero-titlee{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 37px;
+}
+.hero-subtitle{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.btnn{
+    text-align: center;
+    padding-top: 30px;
+}
+.btnnn{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.btnnnn{
+    text-align: center;
+    padding-top: 50px;
+}
+.btn{
+    box-shadow: 0px 0px 0px 1px #067A46 inset;
+    background-color: #067A46;
+    color: white;
+    font-weight: 600;
+    padding: 11px 28px 11px 28px;
+    border-radius: 4px;
+}
+.why{
+    background-color: #F8F8F8;
+}
+.why-title{
+    padding-top: 40px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+.cards{
+    margin-left: 8%;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-top: 50px;
+}
+.card > h3{
+    text-align: center;
+    margin-top: 30px;
+}
+.card > p {
+    text-align: center;
+    margin-top: 15px;
+}
+.card > img {
+    margin-left: 21%;
+}
+.box{
+    padding: 30px 0 60px 0;
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+.box-inner{
+    display: flex;
+    gap: 100px;
+}
+.box-title{
+    font-size: 32px;
+    font-weight: 300;
+}
+.box-ul{
+    margin-top: 15px;
+}
+.box-ul > li, ol {
+    font-size: 19px;
+}
+.box-ul > ol {
+    color: #067A46;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.btn-box{
+    box-shadow: 0px 0px 0px 1px #067A46 inset;
+    background-color: #067A46;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 15px 28px 15px 28px;
+    border-radius: 4px;
+    width: 350px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.recipes{
+    padding: 30px 0 60px 0;
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+.recipes-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+.recipes-subtitle{
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 300;
+}
+.images{
+    margin-top: 22px;
+    margin-left: 5%;
+}
+.menu-btn{
+    box-shadow: 0px 0px 0px 1px #067A46 inset;
+    color: #067A46;
+    font-weight: 600;
+    padding: 8px 28px 8px 28px;
+    border-radius: 4px;
+}
